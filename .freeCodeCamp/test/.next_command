@@ -96,3 +96,6 @@ diff q.txt expected_output.txt
 diff q.txt expected_output.txt
 ./queries.sh > q.txt
 diff q.txt expected_output.txt
+clear
+pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
+ls --color=auto
